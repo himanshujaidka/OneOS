@@ -35,7 +35,7 @@ RUN apt install -y ffmpeg
 WORKDIR "/root"
 
 # download and install OneOS from github
-RUN git clone https://github.com/DependableSystemsLab/OneOS && \
+RUN git clone https://github.com/himanshujaidka/OneOS && \
 cd OneOS && \
 npm install -g
 
